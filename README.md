@@ -91,6 +91,23 @@ We evaluated two clustering algorithms for optimal cluster discovery:
 
 ---
 
+voice-authentication-ml-pipeline/
+├── assets/                             # Output visualizations and graphs
+├── data/                               
+│   ├── raw/                            # Raw .mp3 files (ignored in git)
+│   └── processed/                      # Output features (features.csv)
+├── docs/                               # Project reports and PDF documentation
+├── notebooks/                          
+│   └── final_project.ipynb             # Main execution notebook
+├── src/                                # Modularized Python scripts
+│   ├── audio_processor.py              # DSP and noise reduction logic
+│   ├── feature_extractor.py            # Feature extraction (MFCC, etc.)
+│   ├── classifiers.py                  # Supervised models (SVM, MLP, etc.)
+│   └── clustering.py                   # Unsupervised models (GMM, KMeans)
+├── requirements.txt                    # Project dependencies
+└── README.md
+
+
 ## 💻 Installation & Usage
 
 1. **Clone the repository:**

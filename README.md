@@ -91,6 +91,7 @@ We evaluated two clustering algorithms for optimal cluster discovery:
 
 ---
 
+````
 voice-authentication-ml-pipeline/
 ├── assets/                             # Output visualizations and graphs
 ├── data/                               
@@ -106,7 +107,7 @@ voice-authentication-ml-pipeline/
 │   └── clustering.py                   # Unsupervised models (GMM, KMeans)
 ├── requirements.txt                    # Project dependencies
 └── README.md
-
+````
 
 ## 💻 Installation & Usage
 
